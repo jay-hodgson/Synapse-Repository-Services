@@ -1,12 +1,12 @@
 {
-	"description": "Describes the submitter and contributors of a submission",
+	"description": "Describes the contributors",
 	"properties": {
-		"submitterAlias": {
+		"userId": {
 			"type": "string",
-			"description": "The alias for the user or team creating the submission."
+			"description": "The user ID creating the attribution."
 		},
 		"contributors": {
-		    "description":"The list of user IDs that contributed to this submission.",
+		    "description":"The list of user IDs that contributed.",
 			"type": "array",
 			"items": {
 				"type": "string"
