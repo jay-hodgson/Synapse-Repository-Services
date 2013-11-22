@@ -1,0 +1,19 @@
+{
+	"description": "Describes the full attribution history.  The first entry will always be the original Attribution.",
+	"properties": {
+		"ownerId": {
+			"type": "string",
+			"description": "The ID of the owner."
+		},
+		"ownerType": {
+			"type": "string",
+			"description": "The owner type."
+		},
+		"attribution": {
+			"type": "array",
+			"items": {
+				"$ref": "org.sagebionetworks.evaluation.model.Attribution"
+			}
+		}
+	}
+}
